@@ -1,0 +1,33 @@
+body {
+  padding: 100px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+body .products-column {
+  display: inline-block;
+  margin-right: 2em;
+  vertical-align: top;
+}
+
+body .products-column .column-header {
+  padding-bottom: 5px;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+body .add-product-col input {
+  margin-bottom: 10px;
+}
+
+body .products-column .product-display-ele {
+  padding-bottom: 10px;
+}
+
+body .products-column .product-display-ele button {
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+
+body .products-column .product-display-ele .edit-view {
+  display: none;
+}
